@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:iconTint="@color/white">
+
+
+    <item
+        android:id="@+id/search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:iconTint="@color/white"
+        android:orderInCategory="2"
+        android:title="search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always" />
+
+
+
+
+    <item
+        android:id="@+id/switchLayout"
+        android:icon="@drawable/baseline_grid_view_24"
+        android:iconTint="@color/white"
+        android:orderInCategory="3"
+        android:title="Mřížka"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/aboutApp"
+        android:icon="@drawable/round_question_mark_24"
+        android:orderInCategory="15"
+        android:title="O aplikaci" />
+</menu>
